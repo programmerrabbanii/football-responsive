@@ -91,3 +91,30 @@ header, main{
 }
 /* player section end here */
 /* higlights section start here */
+.higlights-left button{
+    padding: 13px 23px;
+    color: white;
+    border: none;
+    background-color: brown;
+    margin-top: 14px;
+    text-transform: capitalize;
+}
+.higlights{
+    margin-top: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.higlights-left h3{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.higlights-left p{
+    margin-top: 10px;
+}
+.higlights-rights img{
+    width: 100%;
+}
+/* higlights section end here */
+/* footer section stat here */
