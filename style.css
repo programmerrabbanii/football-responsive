@@ -2,3 +2,71 @@
     padding: 0;
     margin: 0;
 }
+header{
+    width: 1150px;
+    margin: auto;
+
+}
+.nav-section{
+    background-color: #2D25A0;
+
+
+}
+.navMain{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+   
+    
+}
+.navLink ul{
+    display: flex;
+    align-items: center;
+}
+.navLink ul li{
+    list-style: none;
+    margin-right: 11px;
+}
+.navLink ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+}
+.navLogo button{
+    background-color: brown;
+    padding: 13px 23px;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+
+}
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    
+}
+.bannar-rights img{
+    width: 100%;
+}
+.bannar-left h2{
+    font-size: 50px;
+}
+.bannar-left{
+    width: 50%;
+}
+.bannar-rights{
+    width: 50%;
+}
+.bannar-left button{
+    padding: 13px 23px;
+    color: white;
+    border: none;
+    background-color: brown;
+    margin-top: 14px;
+    text-transform: capitalize;
+}
