@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-header{
+header, main{
     width: 1150px;
     margin: auto;
 
@@ -70,3 +70,24 @@ header{
     margin-top: 14px;
     text-transform: capitalize;
 }
+/* bannar section end here */
+/* plyer sectin start here */
+.player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 60px;
+}
+.player img{
+    width: 100%;
+}
+
+.player-box{
+    box-shadow: 1px 1px 1px 1px rgb(215, 212, 212);
+    padding: 30px;
+}
+.player-box h4{
+    font-size: 25px;
+}
+/* player section end here */
+/* higlights section start here */
