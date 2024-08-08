@@ -118,3 +118,14 @@ header, main{
 }
 /* higlights section end here */
 /* footer section stat here */
+.footerr{
+    text-align: center;
+    padding: 25px;
+}
+.footer-logo img{
+    width: 250px;
+}
+.footr-con p{
+    margin-top: 10px;
+    text-transform: capitalize;
+}
